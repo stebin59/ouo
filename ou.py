@@ -66,7 +66,7 @@ def ouo_bypass(url):
     }
 
 if len(sys.argv) != 2:
-    print("Usage: python ouo.py <URL>")
+    print("Usage: python ou.py <URL>")
 else:
     url = sys.argv[1]
 out = ouo_bypass(url)
