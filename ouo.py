@@ -1,4 +1,4 @@
-import re
+import re , sys
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
